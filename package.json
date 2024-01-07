@@ -1,0 +1,24 @@
+{
+  "name": "migrate-to-promise",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "ts-morph": "^21.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@types/node": "^20.10.6",
+    "eslint": "^8.56.0"
+  }
+}
